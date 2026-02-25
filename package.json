@@ -1,0 +1,14 @@
+{
+  "name": "decouple-mfe",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "concurrently -n shell,mfe-a,mfe-b,mfe-c -c blue,cyan,green,magenta \"npm start -w packages/shell\" \"npm start -w packages/mfe-a\" \"npm start -w packages/mfe-b\" \"npm start -w packages/mfe-c\"",
+    "build": "npm run build -w packages/mfe-a && npm run build -w packages/mfe-b && npm run build -w packages/mfe-c && npm run build -w packages/shell"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
