@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+<img width="1101" height="561" alt="image" src="https://github.com/user-attachments/assets/9f51b488-48e7-4a68-a4cf-63f6c8c5501e" />
 
 
 # Decoupled Micro-Frontend Architecture
