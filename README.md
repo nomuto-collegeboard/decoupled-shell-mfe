@@ -1,3 +1,6 @@
+![Uploading image.png…]()
+
+
 # Decoupled Micro-Frontend Architecture
 
 A working example of a micro-frontend architecture where **each MFE bundles its own React version** — no shared React singleton, no shared router.
